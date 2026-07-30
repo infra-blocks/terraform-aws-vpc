@@ -1,0 +1,8 @@
+[tasks.lint]
+description = "Lint terraform files"
+run = "find src/. -name '*.tf' | xargs terraform fmt -check -diff"
+
+[tasks.test]
+description = "Runs terraform tests."
+run = "terraform test"
+
