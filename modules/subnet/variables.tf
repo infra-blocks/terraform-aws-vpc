@@ -1,20 +1,20 @@
 variable "availability_zone" {
-  type = string
+  type        = string
   description = "This subnet's availability zone."
 }
 
 variable "cidr_block" {
-  type = string
+  type        = string
   description = "This subnet's CIDR block."
 }
 
 variable "name" {
-  type = string
+  type        = string
   description = "This subnet's name."
 }
 
 variable "vpc_id" {
-  type = string
+  type        = string
   description = "The ID of the VPC this subnet belongs to."
 }
 
